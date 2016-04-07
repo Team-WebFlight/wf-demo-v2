@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Intro from './Intro.jsx';
+import HTMLDemo from './HTMLDemo.jsx';
 import TypicalLoadBalancing from './TypicalLoadBalancing.jsx';
 import PeerLoadBalancing from './PeerLoadBalancing.jsx';
 import RebuildingProcess1 from './RebuildingProcess1.jsx';
@@ -24,7 +25,7 @@ class Slideshow extends Component {
     super();
 
     this.state = {
-      slides: [<Intro />, <TypicalLoadBalancing />, <PeerLoadBalancing />,
+      slides: [<Intro />, <HTMLDemo />, <TypicalLoadBalancing />, <PeerLoadBalancing />,
       <RebuildingProcess1 />, <RebuildingProcess2 />, <RebuildingProcess3 />,
       <Redirect1 />, <Redirect2 />, <Redirect3 />, <HowPossible />,
       <Bots1 />, <Bots2 />, <Bots3 />, <PeerDiscovery1 />, <PeerDiscovery2 />,

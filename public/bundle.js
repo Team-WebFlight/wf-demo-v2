@@ -19718,71 +19718,75 @@
 
 	var _Intro2 = _interopRequireDefault(_Intro);
 
-	var _TypicalLoadBalancing = __webpack_require__(161);
+	var _HTMLDemo = __webpack_require__(161);
+
+	var _HTMLDemo2 = _interopRequireDefault(_HTMLDemo);
+
+	var _TypicalLoadBalancing = __webpack_require__(162);
 
 	var _TypicalLoadBalancing2 = _interopRequireDefault(_TypicalLoadBalancing);
 
-	var _PeerLoadBalancing = __webpack_require__(162);
+	var _PeerLoadBalancing = __webpack_require__(163);
 
 	var _PeerLoadBalancing2 = _interopRequireDefault(_PeerLoadBalancing);
 
-	var _RebuildingProcess = __webpack_require__(163);
+	var _RebuildingProcess = __webpack_require__(164);
 
 	var _RebuildingProcess2 = _interopRequireDefault(_RebuildingProcess);
 
-	var _RebuildingProcess3 = __webpack_require__(164);
+	var _RebuildingProcess3 = __webpack_require__(165);
 
 	var _RebuildingProcess4 = _interopRequireDefault(_RebuildingProcess3);
 
-	var _RebuildingProcess5 = __webpack_require__(165);
+	var _RebuildingProcess5 = __webpack_require__(166);
 
 	var _RebuildingProcess6 = _interopRequireDefault(_RebuildingProcess5);
 
-	var _Redirect = __webpack_require__(166);
+	var _Redirect = __webpack_require__(167);
 
 	var _Redirect2 = _interopRequireDefault(_Redirect);
 
-	var _Redirect3 = __webpack_require__(167);
+	var _Redirect3 = __webpack_require__(168);
 
 	var _Redirect4 = _interopRequireDefault(_Redirect3);
 
-	var _Redirect5 = __webpack_require__(168);
+	var _Redirect5 = __webpack_require__(169);
 
 	var _Redirect6 = _interopRequireDefault(_Redirect5);
 
-	var _HowPossible = __webpack_require__(169);
+	var _HowPossible = __webpack_require__(170);
 
 	var _HowPossible2 = _interopRequireDefault(_HowPossible);
 
-	var _Bots = __webpack_require__(170);
+	var _Bots = __webpack_require__(171);
 
 	var _Bots2 = _interopRequireDefault(_Bots);
 
-	var _Bots3 = __webpack_require__(171);
+	var _Bots3 = __webpack_require__(172);
 
 	var _Bots4 = _interopRequireDefault(_Bots3);
 
-	var _Bots5 = __webpack_require__(172);
+	var _Bots5 = __webpack_require__(173);
 
 	var _Bots6 = _interopRequireDefault(_Bots5);
 
-	var _PeerDiscovery = __webpack_require__(173);
+	var _PeerDiscovery = __webpack_require__(174);
 
 	var _PeerDiscovery2 = _interopRequireDefault(_PeerDiscovery);
 
-	var _PeerDiscovery3 = __webpack_require__(174);
+	var _PeerDiscovery3 = __webpack_require__(175);
 
 	var _PeerDiscovery4 = _interopRequireDefault(_PeerDiscovery3);
 
-	var _Watch = __webpack_require__(175);
+	var _Watch = __webpack_require__(176);
 
 	var _Watch2 = _interopRequireDefault(_Watch);
 
-	var _WFReact = __webpack_require__(176);
+	var _WFReact = __webpack_require__(177);
 
 	var _WFReact2 = _interopRequireDefault(_WFReact);
 
-	var _End = __webpack_require__(177);
+	var _End = __webpack_require__(178);
 
 	var _End2 = _interopRequireDefault(_End);
 
@@ -19803,7 +19807,7 @@
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Slideshow).call(this));
 
 	    _this.state = {
-	      slides: [_react2.default.createElement(_Intro2.default, null), _react2.default.createElement(_TypicalLoadBalancing2.default, null), _react2.default.createElement(_PeerLoadBalancing2.default, null), _react2.default.createElement(_RebuildingProcess2.default, null), _react2.default.createElement(_RebuildingProcess4.default, null), _react2.default.createElement(_RebuildingProcess6.default, null), _react2.default.createElement(_Redirect2.default, null), _react2.default.createElement(_Redirect4.default, null), _react2.default.createElement(_Redirect6.default, null), _react2.default.createElement(_HowPossible2.default, null), _react2.default.createElement(_Bots2.default, null), _react2.default.createElement(_Bots4.default, null), _react2.default.createElement(_Bots6.default, null), _react2.default.createElement(_PeerDiscovery2.default, null), _react2.default.createElement(_PeerDiscovery4.default, null), _react2.default.createElement(_Watch2.default, null), _react2.default.createElement(_WFReact2.default, null), _react2.default.createElement(_End2.default, null)],
+	      slides: [_react2.default.createElement(_Intro2.default, null), _react2.default.createElement(_HTMLDemo2.default, null), _react2.default.createElement(_TypicalLoadBalancing2.default, null), _react2.default.createElement(_PeerLoadBalancing2.default, null), _react2.default.createElement(_RebuildingProcess2.default, null), _react2.default.createElement(_RebuildingProcess4.default, null), _react2.default.createElement(_RebuildingProcess6.default, null), _react2.default.createElement(_Redirect2.default, null), _react2.default.createElement(_Redirect4.default, null), _react2.default.createElement(_Redirect6.default, null), _react2.default.createElement(_HowPossible2.default, null), _react2.default.createElement(_Bots2.default, null), _react2.default.createElement(_Bots4.default, null), _react2.default.createElement(_Bots6.default, null), _react2.default.createElement(_PeerDiscovery2.default, null), _react2.default.createElement(_PeerDiscovery4.default, null), _react2.default.createElement(_Watch2.default, null), _react2.default.createElement(_WFReact2.default, null), _react2.default.createElement(_End2.default, null)],
 	      index: 0
 	    };
 	    return _this;
@@ -19902,6 +19906,182 @@
 /* 161 */
 /***/ function(module, exports, __webpack_require__) {
 
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var HTMLDemo = function (_Component) {
+	  _inherits(HTMLDemo, _Component);
+
+	  function HTMLDemo() {
+	    _classCallCheck(this, HTMLDemo);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(HTMLDemo).apply(this, arguments));
+	  }
+
+	  _createClass(HTMLDemo, [{
+	    key: "componentWillMount",
+	    value: function componentWillMount() {
+	      var galleryScript = document.createElement("script");
+	      var webflightScript = document.createElement("script");
+
+	      galleryScript.src = 'popup.js';
+	      webflightScript.src = 'htmldemo.js';
+
+	      document.body.appendChild(galleryScript);
+	      document.body.appendChild(webflightScript);
+	    }
+	  }, {
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "white" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "navbar" },
+	          _react2.default.createElement(
+	            "div",
+	            { id: "html-title" },
+	            "WebFlight",
+	            _react2.default.createElement(
+	              "sup",
+	              null,
+	              _react2.default.createElement(
+	                "span",
+	                { id: "beta" },
+	                " alpha"
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "nav-links" },
+	            _react2.default.createElement(
+	              "a",
+	              { className: "words", href: "https://www.github.com/Team-WebFlight/WebFlight", target: "_blank" },
+	              "GitHub"
+	            ),
+	            _react2.default.createElement(
+	              "a",
+	              { className: "words", href: "https://github.com/Team-WebFlight/WebFlight/blob/master/README.md", target: "_blank" },
+	              "Docs"
+	            ),
+	            _react2.default.createElement(
+	              "a",
+	              { className: "words", href: "#" },
+	              "Performance"
+	            ),
+	            _react2.default.createElement(
+	              "a",
+	              { className: "words", href: "#" },
+	              "Demo"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { id: "webflight" },
+	          "Web",
+	          _react2.default.createElement(
+	            "span",
+	            { id: "meddon" },
+	            "Flight"
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { id: "tagline" },
+	          "Static content is delivered through your peer network."
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { id: "gallery" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "gallery-window" },
+	            _react2.default.createElement("img", { className: "big-pic 70f833246b9ccab974af5c7c525682220e98f3cd0", alt: "" })
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "gallery-window" },
+	            _react2.default.createElement("img", { className: "gallery-pic 70f833246b9ccab974af5c7c525682220e98f3cd0", alt: "" }),
+	            _react2.default.createElement("img", { className: "gallery-pic 70f833246b9ccab974af5c7c525682220e98f3cd1", alt: "" }),
+	            _react2.default.createElement("img", { className: "gallery-pic 70f833246b9ccab974af5c7c525682220e98f3cd2", alt: "" }),
+	            _react2.default.createElement("img", { className: "gallery-pic 70f833246b9ccab974af5c7c525682220e98f3cd3", alt: "" }),
+	            _react2.default.createElement("img", { className: "gallery-pic 70f833246b9ccab974af5c7c525682220e98f3cd4", alt: "" }),
+	            _react2.default.createElement("img", { className: "gallery-pic 70f833246b9ccab974af5c7c525682220e98f3cd5", alt: "" }),
+	            _react2.default.createElement("img", { className: "gallery-pic 70f833246b9ccab974af5c7c525682220e98f3cd6", alt: "" }),
+	            _react2.default.createElement("img", { className: "gallery-pic 70f833246b9ccab974af5c7c525682220e98f3cd7", alt: "" }),
+	            _react2.default.createElement("img", { className: "gallery-pic 70f833246b9ccab974af5c7c525682220e98f3cd8", alt: "" }),
+	            _react2.default.createElement("img", { className: "gallery-pic 70f833246b9ccab974af5c7c525682220e98f3cd9", alt: "" }),
+	            _react2.default.createElement("img", { className: "gallery-pic 70f833246b9ccab974af5c7c525682220e98f3cd10", alt: "" }),
+	            _react2.default.createElement("img", { className: "gallery-pic 70f833246b9ccab974af5c7c525682220e98f3cd11", alt: "" }),
+	            _react2.default.createElement("img", { className: "gallery-pic 70f833246b9ccab974af5c7c525682220e98f3cd12", alt: "" })
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "footer" },
+	          _react2.default.createElement(
+	            "p",
+	            { className: "footer-right" },
+	            "Brought to you by Team WebFlight: ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/CarolAG/", target: "_blank" },
+	              "Carol"
+	            ),
+	            ", ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/coryc5/", target: "_blank" },
+	              "Cory"
+	            ),
+	            ", ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/10000highfives/", target: "_blank" },
+	              "Jared"
+	            ),
+	            ", ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/tbywong/",
+	                target: "_blank" },
+	              "Tiffany"
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return HTMLDemo;
+	}(_react.Component);
+
+	exports.default = HTMLDemo;
+
+/***/ },
+/* 162 */
+/***/ function(module, exports, __webpack_require__) {
+
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -19958,7 +20138,7 @@
 	exports.default = TypicalLoadBalancing;
 
 /***/ },
-/* 162 */
+/* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20017,7 +20197,7 @@
 	exports.default = PeerLoadBalancing;
 
 /***/ },
-/* 163 */
+/* 164 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20109,7 +20289,7 @@
 	exports.default = RebuildingProcess1;
 
 /***/ },
-/* 164 */
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20201,7 +20381,7 @@
 	exports.default = RebuildingProcess2;
 
 /***/ },
-/* 165 */
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20293,7 +20473,7 @@
 	exports.default = RebuildingProcess3;
 
 /***/ },
-/* 166 */
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20354,7 +20534,7 @@
 	exports.default = Redirect1;
 
 /***/ },
-/* 167 */
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20413,7 +20593,7 @@
 	exports.default = Redirect2;
 
 /***/ },
-/* 168 */
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20474,7 +20654,7 @@
 	exports.default = Redirect3;
 
 /***/ },
-/* 169 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20552,7 +20732,7 @@
 	exports.default = HowPossible;
 
 /***/ },
-/* 170 */
+/* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20613,7 +20793,7 @@
 	exports.default = Bots1;
 
 /***/ },
-/* 171 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20674,7 +20854,7 @@
 	exports.default = Bots2;
 
 /***/ },
-/* 172 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20735,7 +20915,7 @@
 	exports.default = Bots3;
 
 /***/ },
-/* 173 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20796,7 +20976,7 @@
 	exports.default = PeerDiscovery1;
 
 /***/ },
-/* 174 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20855,7 +21035,7 @@
 	exports.default = PeerDiscovery2;
 
 /***/ },
-/* 175 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20916,7 +21096,7 @@
 	exports.default = Watch;
 
 /***/ },
-/* 176 */
+/* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20977,7 +21157,7 @@
 	exports.default = Watch;
 
 /***/ },
-/* 177 */
+/* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
