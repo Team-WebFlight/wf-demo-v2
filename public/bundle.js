@@ -20251,49 +20251,20 @@
 	        _react2.default.createElement(
 	          'h1',
 	          { className: 'header' },
-	          'WebFlight'
-	        ),
-	        _react2.default.createElement(
-	          'p',
-	          { className: 'subheader' },
 	          'Rebuilding Process'
 	        ),
 	        _react2.default.createElement(
-	          'table',
-	          { className: 'center' },
-	          _react2.default.createElement(
-	            'tbody',
-	            null,
-	            _react2.default.createElement(
-	              'tr',
-	              null,
-	              _react2.default.createElement(
-	                'th',
-	                { className: 'subheader' },
-	                'Normal HTML'
-	              ),
-	              _react2.default.createElement(
-	                'th',
-	                { className: 'subheader' },
-	                'P2P HTML'
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'tr',
-	              null,
-	              _react2.default.createElement(
-	                'td',
-	                null,
-	                _react2.default.createElement('img', { className: 'center eighty', src: 'assets/normalHTML.png' })
-	              ),
-	              _react2.default.createElement(
-	                'td',
-	                null,
-	                _react2.default.createElement('img', { className: 'center eighty', src: 'assets/p2pHTML.png' })
-	              )
-	            )
-	          )
-	        )
+	          'h3',
+	          { className: 'subheader center' },
+	          'Normal HTML'
+	        ),
+	        _react2.default.createElement('img', { className: 'center sixty', src: 'assets/normalHTMLv2.png' }),
+	        _react2.default.createElement(
+	          'h3',
+	          { className: 'subheader center' },
+	          'P2P HTML'
+	        ),
+	        _react2.default.createElement('img', { className: 'center eighty', src: 'assets/p2pHTMLv2.png' })
 	      );
 	    }
 	  }]);
@@ -20347,49 +20318,20 @@
 	        _react2.default.createElement(
 	          'h1',
 	          { className: 'header' },
-	          'WebFlight'
-	        ),
-	        _react2.default.createElement(
-	          'p',
-	          { className: 'subheader' },
 	          'Rebuilding Process'
 	        ),
 	        _react2.default.createElement(
-	          'table',
-	          { className: 'center' },
-	          _react2.default.createElement(
-	            'tbody',
-	            null,
-	            _react2.default.createElement(
-	              'tr',
-	              null,
-	              _react2.default.createElement(
-	                'th',
-	                { className: 'subheader' },
-	                'Normal HTML'
-	              ),
-	              _react2.default.createElement(
-	                'th',
-	                { className: 'subheader' },
-	                'P2P HTML'
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'tr',
-	              null,
-	              _react2.default.createElement(
-	                'td',
-	                null,
-	                _react2.default.createElement('img', { className: 'center eighty', src: 'assets/normalHTMLRed.png' })
-	              ),
-	              _react2.default.createElement(
-	                'td',
-	                null,
-	                _react2.default.createElement('img', { className: 'center eighty', src: 'assets/p2pHTML.png' })
-	              )
-	            )
-	          )
-	        )
+	          'h3',
+	          { className: 'subheader center' },
+	          'Normal HTML'
+	        ),
+	        _react2.default.createElement('img', { className: 'center sixty', src: 'assets/normalHTMLRedv2.png' }),
+	        _react2.default.createElement(
+	          'h3',
+	          { className: 'subheader center' },
+	          'P2P HTML'
+	        ),
+	        _react2.default.createElement('img', { className: 'center eighty', src: 'assets/p2pHTMLv2.png' })
 	      );
 	    }
 	  }]);
@@ -20443,49 +20385,20 @@
 	        _react2.default.createElement(
 	          'h1',
 	          { className: 'header' },
-	          'WebFlight'
-	        ),
-	        _react2.default.createElement(
-	          'p',
-	          { className: 'subheader' },
 	          'Rebuilding Process'
 	        ),
 	        _react2.default.createElement(
-	          'table',
-	          { className: 'center' },
-	          _react2.default.createElement(
-	            'tbody',
-	            null,
-	            _react2.default.createElement(
-	              'tr',
-	              null,
-	              _react2.default.createElement(
-	                'th',
-	                { className: 'subheader' },
-	                'Normal HTML'
-	              ),
-	              _react2.default.createElement(
-	                'th',
-	                { className: 'subheader' },
-	                'P2P HTML'
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'tr',
-	              null,
-	              _react2.default.createElement(
-	                'td',
-	                null,
-	                _react2.default.createElement('img', { className: 'center eighty', src: 'assets/normalHTMLRed.png' })
-	              ),
-	              _react2.default.createElement(
-	                'td',
-	                null,
-	                _react2.default.createElement('img', { className: 'center eighty', src: 'assets/p2pHTMLRed.png' })
-	              )
-	            )
-	          )
-	        )
+	          'h3',
+	          { className: 'subheader center' },
+	          'Normal HTML'
+	        ),
+	        _react2.default.createElement('img', { className: 'center sixty', src: 'assets/normalHTMLRedv2.png' }),
+	        _react2.default.createElement(
+	          'h3',
+	          { className: 'subheader center' },
+	          'P2P HTML'
+	        ),
+	        _react2.default.createElement('img', { className: 'center eighty', src: 'assets/p2pHTMLRedv2.png' })
 	      );
 	    }
 	  }]);
@@ -22015,7 +21928,7 @@
 	          { className: 'header' },
 	          'Response Times'
 	        ),
-	        _react2.default.createElement('img', { className: 'center', style: resize, src: 'assets/responseTime.jpg' })
+	        _react2.default.createElement('img', { className: 'center', style: resize, src: 'assets/responseTimev2.png' })
 	      );
 	    }
 	  }]);

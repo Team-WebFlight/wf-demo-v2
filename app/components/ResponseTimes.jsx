@@ -7,7 +7,7 @@ class ResponseTime extends Component {
     return (
       <div>
         <h1 className='header'>Response Times</h1>
-        <img className='center' style={resize} src='assets/responseTime.jpg' />
+        <img className='center' style={resize} src='assets/responseTimev2.png' />
       </div>
     );
   }

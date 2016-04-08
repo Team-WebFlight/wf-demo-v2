@@ -6,20 +6,11 @@ class RebuildingProcess3 extends Component {
 
     return (
       <div>
-        <h1 className='header'>WebFlight</h1>
-        <p className='subheader'>Rebuilding Process</p>
-        <table className='center'>
-          <tbody>
-            <tr>
-              <th className='subheader'>Normal HTML</th>
-              <th className='subheader'>P2P HTML</th>
-            </tr>
-            <tr>
-              <td><img className='center eighty' src='assets/normalHTMLRed.png' /></td>
-              <td><img className='center eighty' src='assets/p2pHTMLRed.png' /></td>
-            </tr>
-          </tbody>
-        </table>
+        <h1 className='header'>Rebuilding Process</h1>
+          <h3 className='subheader center'>Normal HTML</h3>
+          <img className='center sixty' src='assets/normalHTMLRedv2.png' />
+          <h3 className='subheader center'>P2P HTML</h3>
+          <img className='center eighty' src='assets/p2pHTMLRedv2.png' />
       </div>
     );
   }
