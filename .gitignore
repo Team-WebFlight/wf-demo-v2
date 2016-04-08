@@ -1,1 +1,6 @@
 node_modules/
+public/assets/birds
+jsconfig.json
+.DS_Store
+node.js
+typings/

@@ -6,8 +6,7 @@ class Redirect1 extends Component {
 
     return (
       <div>
-        <h1 className='header'>WebFlight</h1>
-        <p className='subheader'>Redirecting</p>
+        <h1 className='header'>WebFlight Redirecting</h1>
         <img className='center' style={resize} src='assets/redirectStaticStart.png' />
       </div>
     );
