@@ -23,7 +23,7 @@ import ClientSide from './ClientSide.jsx';
 import ReactDemo from './ReactDemo.jsx';
 import ReactNormal from './ReactNormal.jsx';
 // import Watch from './Watch.jsx'
-// import WFReact from './WFReact.jsx'
+import WFReact from './WFReact.jsx'
 import End from './End.jsx'
 
 class Slideshow extends Component {
@@ -33,20 +33,19 @@ class Slideshow extends Component {
     this.state = {
       slides: [<Intro />, <HTMLDemo />, <TypicalLoadBalancing />, <PeerLoadBalancing />,
       <RebuildingProcess1 />, <RebuildingProcess2 />, <RebuildingProcess3 />,
-      <Redirect1 />, <Redirect2 />, <Redirect3 />, <PeerTechnologies />, <FirstUser />,
-      <AskUsLater />, <PeerDiscovery1 />, <PeerDiscovery2 />, <ResponseTimes />,
-      <HTMLDemo />, <ClientSide />, <ReactDemo />, <ReactNormal />, <End />],
+      <Redirect1 />, <Redirect2 />, <Redirect3 />, <PeerTechnologies />, <PeerDiscovery2 />, <WFReact />, <ClientSide />, <ReactDemo />, <ReactNormal />, <End />],
       index: 0
     };
   }
 
   componentWillMount() {
     document.addEventListener('keydown', function(e) {
-      if (e.keyCode === 37) {
+      console.log(e.keyCode)
+      if (e.keyCode === 33 || e.keyCode === 37) {
         if (this.state.index) {
           this.setState({index: this.state.index - 1})
         }
-      } else if (e.keyCode === 39) {
+      } else if (e.keyCode === 34 || e.keyCode === 39) {
         if (this.state.index < this.state.slides.length - 1) {
           this.setState({index: this.state.index + 1})
         }
